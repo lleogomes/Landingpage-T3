@@ -433,6 +433,7 @@ footer{
        background-repeat: no-repeat;
        display: flex;
        flex-direction: column;
+       justify-content: center;
        text-align: center;
        font-size: 0.8em;
        height: 113vh;
