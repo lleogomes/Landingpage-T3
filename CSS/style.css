@@ -607,6 +607,7 @@ footer{
     /*Sessão 7 - Lotes*/
     .lotes-titulo{
         width: 100rem;
+        background-color: black;
     }
 
     #lotesimgs{
