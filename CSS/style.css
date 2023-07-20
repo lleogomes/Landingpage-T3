@@ -1,0 +1,654 @@
+:root{
+    --text-color: #fff;
+    --text-secondary:#56070D;
+    --text-tertiary: #C78033;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*Sessão 1 - Topo*/
+
+#dobra1{
+    background: url("../imagens/Página-1-CelularFundo.png");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#t3-logo{
+    max-width: 580px;
+    margin-left: 19em;
+    margin-top: 6.5em;
+    margin-bottom: -20em;
+    padding-bottom: -10em;
+}
+
+#txt1-d1{
+    color: var(--text-tertiary);
+    margin-left: 13em;
+    margin-bottom: -5em;
+    margin-top: 14em;
+    max-width: 380px;
+    font-family: 'calibri';
+    font-style: italic;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#txt2-d1{
+    color: var(--text-secondary);
+    margin-left: 13em;
+    margin-top: 6em;
+    max-width: 350px;
+    font-family: 'calibri';
+    font-size: 1.6em;
+}
+
+#cartbtt{
+    border: none;
+    border-radius: 1;
+    background-color: var(--text-tertiary);
+    color: var(--text-color);
+    margin-left: 25em;
+    margin-top: 3em;
+    width: 12%;
+    padding: 12px;
+    line-height: 1.5em;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+#cartbtt:hover{
+    opacity: 1;
+}
+
+/*Sessão 2 - Triunfo*/
+
+#triunfo{
+    background: url(../imagens/Página-2-Fundo.png);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    color: var(--text-color);
+    font-family: 'calibri';
+    font-style: italic
+}
+
+#triunfoimg{
+    max-width: 300px;
+    margin-left: 21em;
+    margin-top: 5em;
+}
+
+#txt1-triunfo{
+    margin-left: 11.2em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    max-width: 1000px;
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+#txt2-triunfo{
+    margin-left: 11.2em;
+    max-width: 1000px;
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+#cartbtt2{
+    border: none;
+    border-radius: 1;
+    background-color: var(--text-tertiary);
+    color: var(--text-color);
+    margin-left: 25.3em;
+    margin-top: 3em;
+    width: 12%;
+    padding: 12px;
+    line-height: 1.5em;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+#cartbtt2:hover{
+    opacity: 1;
+}
+
+/*Sessão 3 - Quem é Nina Gomes*/
+
+#ninagomes{
+    background: url(../imagens/Página-3-Fundo.png);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    color: var(--text-secondary);
+    font-family: 'calibri';
+    font-style: italic;
+}
+
+#ninalogo{
+    max-width: 300px;
+    margin-left: 21em;
+    margin-top: 4em;
+}
+
+.txtsnina{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 13.2em;
+    max-width: 650px;
+}
+
+#txt1-ninagomes{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#txt2-ninagomes{
+    margin-bottom: 1em;
+}
+
+/*Sessão 4 - Para quem é o T3?*/
+
+#paraquem{
+    background: url(../imagens/Página-4-Fundo.png);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#paraquemimg{
+    max-width: 350px;
+    margin-left: 40em;
+    margin-top: 4em;
+}
+
+.textopag4{
+    color: var(--text-color);
+    font-family: 'calibri';
+    font-style: italic;
+    font-size: 1.6em;
+    margin-top: 3em;
+    max-width: 793px;
+    margin-left: 17em;
+}
+
+#txt1-paraquem{
+    margin-top: -1.4em;
+    margin-bottom: 0.6em;
+}
+
+#txt2-paraquem{
+    margin-bottom: 0.2em;
+}
+
+#txt3-paraquem{
+    margin-bottom: 0.5em;
+}
+
+/*Sessão 5 - Módulos*/
+
+#modulos{
+    background: url(../imagens/Página-5-Fundo.png);
+    background-position: center;
+    background-size: cover;
+    height: 160vh;
+}
+
+#receberimg{
+    max-width: 500px;
+    margin-left: 22em;
+    margin-top: 4em;
+    margin-bottom: 0.3em;
+}
+
+#subreceber{
+    margin-left: 13em;
+    margin-bottom: 1.6em;
+    font-family: 'calibri';
+    font-style: italic;
+    color: var(--text-tertiary);
+    font-size: 1.7em;
+}
+
+#modulosimg{
+    margin-left: 19em;
+    width: 270px;
+}
+
+.textos-modulos{
+    font-family: 'calibri';
+    font-style: italic;
+    font-size: 1.6em;
+    color: var(--text-color);
+    line-height: 1.6em;
+    margin-left: 21.7em;
+    margin-top: 1.4em;
+}
+
+#txt1-modulos{
+    margin-top: -40em;
+    margin-bottom: 9em;
+    max-width: 765px;
+}
+
+#txt2-modulos{
+    margin-bottom: 8em;
+    max-width: 765px;
+}
+
+#txt3-modulos{
+    max-width: 765px;
+}
+
+/*Sessão 6 - Bônus*/
+
+#bonus{
+    background: url(../imagens/Página-6-Fundo\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 190vh;
+    font-family: 'calibri';
+    font-style: italic;
+    margin-bottom: -3em;
+}
+
+#acaba{
+    color: var(--text-color);
+    margin-left: 30em;
+    padding-top: 3em;
+    margin-bottom: 0.6em;
+}
+
+#img6{
+    margin-bottom: 71em;
+    margin-left: 30em;
+}
+
+#bonusimg{
+    width: 200px;
+    margin-top: 15em;
+    margin-left: -53em;
+}
+
+.textos-bonus{
+    color: var(--text-color);
+    font-size: 1.6em;
+    max-width: 765px;
+    margin-left: 21.7em;
+}
+
+#pb1{
+    margin-top: -36em;
+    margin-bottom: 11.6em;
+}
+
+#pb2{
+    margin-bottom: 11.6em;
+}
+
+/*Sessão 7 - Lotes*/
+
+#lotes{
+    background: url(../imagens/Página-7-Fundo.png);
+    background-position: center;
+    background-size: cover;
+    height: 108vh;
+    font-family: 'calibri';
+    font-style: italic;
+    padding-top: 3em;
+}
+
+#titulolotes{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30em;
+    margin-bottom: 0.8em;
+    padding-top: 2em;
+}
+
+#sublotes{
+    font-size: 1.6em;
+    text-align: center;
+    margin-left: -2.6em;
+    color: #56070D;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.lotesimgs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -3em;
+}
+
+#lote1img{
+    width: 350px;
+    height: 260px;
+    margin-left: 10em;
+}
+
+#lote3img{
+    margin-right: 10em;
+}
+
+#txtfinal{
+    font-size: 1.6em;
+    text-align: center;
+    margin-left: -2.6em;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 4em;
+}
+
+#cartbtt3{
+    border: none;
+    border-radius: 1;
+    background-color: var(--text-tertiary);
+    color: var(--text-color);
+    background-color: #56070D;
+    margin-left: 21em;
+    width:12%;
+    padding: 12px;
+    line-height: 1.5em;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+#cartbtt3:hover{
+    opacity: 1;
+}
+
+/*Sessão 8 - Contato*/
+
+footer{
+    background-color:black;
+    height: 50vh;
+    color: var(--text-color);
+    font-family: 'calibri';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#titulo-contato{
+    color: var(--text-tertiary);
+    font-weight: 500;
+    font-size: 3em;
+    margin-top:2em;
+    margin-bottom: 0.3em;
+}
+
+#subcontato{
+    font-size: 1.3em;
+    margin-bottom: 0.1em;
+}
+
+#btt-contato{
+    border: none;
+    border-radius: 1px;
+    background-color: var(--text-tertiary);
+    color: var(--text-color);
+    background-color: green;
+    margin-left: -1em;
+    margin-top: 3em;
+    width: 15%;
+    padding: 20px;
+    line-height: 1.5em;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 15px;
+    font-size: 1em;
+    margin-bottom: 3.8em;
+}
+
+#btt-contato:hover{
+    opacity: 1;
+}
+
+#direitos{
+    font-size: 1.3em;
+}
+
+/* = = = = = MOBILE = = = = = */
+
+@media (max-width: 450px){
+    /*Sessão 1 - Topo*/
+    body{
+        margin-right: -5em;
+    }
+
+    #dobra1{
+       background-position: center;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       font-size: 0.8em;
+       height: 119vh;
+    }
+
+    #t3-logo{
+        width: 300px;
+        margin-top: 37em;
+        margin-left: 4em;
+    }
+
+    #textos-1{
+        margin-left: -17em;
+        max-width: 580px;
+        margin-bottom: -1em;
+    }
+
+    #cartbtt{
+        margin-left: -1em;
+        width: 55%;
+    }
+  
+
+    /*Sessão 2 - Triunfo*/
+    #triunfo{
+        background: url(../imagens/Página-2-CelularFundo.png);
+        background-size: cover;
+        height: 97vh;
+        margin-left: -18em;
+    }
+
+    #triunfoimg{
+        width: 160px;
+        margin-bottom: 2em;
+    }
+
+    #txt1-triunfo, #txt2-triunfo{
+        font-style: bold;
+        font-size: 1.2em;
+        max-width: 279px;
+        margin-left: 17.7em;
+        margin-bottom: 1em;
+    }
+    
+    #cartbtt2{
+        margin-left: 25.6em;
+        width: 25%;
+    }
+
+    /*Sessão 3 - Quem é Nina Gomes*/
+    #ninagomes{
+        background: url(../imagens/fundo-pag3-celular-figma.png);
+        height: 119vh;
+    }
+
+    #ninalogo{
+        width: 165px;
+        margin-left: 2.8em;
+        margin-top: 28.5em;
+        margin-bottom: -0.5em;
+    }
+
+    .txtsnina{
+        max-width: 300px;
+        font-size: 1em;
+        margin-left: 2.8em;
+        font-weight: bold;
+    }
+
+    /*Sessão 4 - Para quem é o T3*/
+    #paraquem{
+        background: url(../imagens/Página\ -\ 4\ -\ fundocelular.png);
+        background-position: center;
+        height: 90vh;
+    }
+    
+    #paraquemimg{
+        margin-left: 7.6em;
+        width: 165px;
+        margin-top: 5.3em;
+    }
+
+    .textopag4{
+        margin-top: 5em;
+        margin-left: 8em;
+        font-size: 0.8em;
+        text-align: normal;
+        max-width: 230px;
+    }
+
+    #txt1-paraquem{
+        margin-bottom: 3em;
+    }
+
+    #txt2-paraquem{
+        margin-bottom: 3.6em;
+    }
+
+    #txt3-paraquem{
+        margin-bottom: 3.9em;
+    }
+
+    /*Sessão 5 - Módulos*/
+    #modulos{
+        height: 93vh;
+    }
+    
+    #receberimg{
+        margin-left: 3em;
+        width: 250px;
+    }
+
+    #subreceber{
+        margin-left: 2.9em;
+        font-size: 1em;
+    }
+
+    #modulosimg{
+        margin-left: 1.8em;
+        width: 130px;
+    }
+
+    .textos-modulos{
+        font-size: 0.7em;
+        margin-left: 14em;
+        max-width: 200px;
+        margin-top: -44.3em;
+    }
+
+    #txt1-modulos{
+        margin-bottom: 5.6em;
+    }
+
+    #txt2-modulos{
+        margin-bottom: 4.6em;
+    }
+
+    /*Sessão 6 - Bônus*/
+    #bonus{
+        height: 140vh;
+    }
+
+    #acaba{
+        margin-left: 8.6em;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    #img6{
+        margin-left: 5em;
+        width: 250px;
+        margin-bottom: -12.5em;
+    }
+
+    .tituloebonusimg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bonusimg{
+        margin-left: 8.6em;
+        width: 130px;
+    }
+
+    .textos-bonus{
+        color: var(--text-color);
+        margin-left: 6em;
+        font-size: 0.9em;
+        text-align: center;
+        max-width: 245px;
+    }
+
+    #pb1{
+        margin-top: -39.8em;
+        margin-bottom: 15.4em;
+    }
+
+    #pb2{
+        margin-bottom: 15.2em;
+    }
+
+    /*Sessão 7 - Lotes*/
+    #titulolotes{
+        width: 30px;
+    }
+
+    #lotesimgs{
+        width:30px;
+        margin-left: -150em;
+    }
+
+    #lote1img{
+        width: 50px;
+        margin-top: 15em;
+    }
+
+    #lote2img{
+        width: 50px;
+    }
+
+    #lote3img{
+        width: 50px;
+    }
+
+    #direitos{
+        margin-top: -2em;
+    }
+
+    #btt-contato:hover{
+        margin-bottom: 5em;
+    }
+
+    footer{
+        margin-bottom: -25em;
+        height: 65vh;
+    }
+}
