@@ -474,6 +474,7 @@ footer{
     /*Sessão 3 - Quem é Nina Gomes*/
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
+        padding-bottom: 10rem;
     }
 
     #ninalogo{
@@ -495,7 +496,7 @@ footer{
         background: url(../imagens/Página\ -\ 4\ -\ fundocelular.png);
         background-position: center;
         height: 90vh;
-        margin-left: 0.6rem;
+        margin-left: 0.4rem;
     }
     
     #paraquemimg{
@@ -604,8 +605,8 @@ footer{
     }
 
     /*Sessão 7 - Lotes*/
-    #titulolotes{
-        width: 30px;
+    .lotes-titulo{
+        width: 5rem;
     }
 
     #lotesimgs{
