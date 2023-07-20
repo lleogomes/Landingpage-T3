@@ -424,7 +424,7 @@ footer{
 @media (max-width: 430px){
     /*Sessão 1 - Topo*/
     body{
-        margin-right: 2rem;
+        margin: 2rem;
     }
 
     header{
@@ -474,7 +474,7 @@ footer{
     /*Sessão 3 - Quem é Nina Gomes*/
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
-        height: 105vh;
+        height: 90vh;
     }
 
     #ninalogo{
