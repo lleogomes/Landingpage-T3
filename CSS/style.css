@@ -475,7 +475,7 @@ footer{
     /*Sessão 3 - Quem é Nina Gomes*/
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
-        padding-bottom: 10rem;
+        background-size: cover;
     }
 
     #ninalogo{
