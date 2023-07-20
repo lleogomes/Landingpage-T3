@@ -606,12 +606,15 @@ footer{
 
     /*Sessão 7 - Lotes*/
     .lotes-titulo{
-        width: 5rem;
+        width: 1rem;
+        padding-right: 1rem;
     }
 
     #lotesimgs{
         width:30px;
         margin-left: -150em;
+        display: flex;
+        flex-direction: column;
     }
 
     #lote1img{
