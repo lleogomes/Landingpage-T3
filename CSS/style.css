@@ -423,10 +423,6 @@ footer{
 
 @media (max-width: 430px){
     /*Sessão 1 - Topo*/
-    body{
-
-    }
-
     header{
        background-image: url(../imagens/Página-1-CelularFundo.png); 
        background-position: center;
@@ -438,6 +434,10 @@ footer{
        font-size: 0.8em;
        height: 113vh;
        padding-right: 35rem;
+    }
+
+    #t3-logo{
+        padding-right: 50rem;
     }
 
     #cartbtt{
