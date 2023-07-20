@@ -433,7 +433,6 @@ footer{
        text-align: center;
        font-size: 0.8em;
        height: 113vh;
-       padding-right: 35rem;
     }
 
     #t3-logo{
@@ -475,7 +474,7 @@ footer{
     /*Sessão 3 - Quem é Nina Gomes*/
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
-        padding-bottom: 5rem;
+        padding-bottom: 45rem;
     }
 
     #ninalogo{
