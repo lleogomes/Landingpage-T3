@@ -26,7 +26,7 @@ header{
     padding-bottom: -10em;
 }
 
-#txt1-d1{
+#header-headline{
     color: var(--text-tertiary);
     margin-left: 13em;
     margin-bottom: -5em;
@@ -38,7 +38,7 @@ header{
     font-weight: bold;
 }
 
-#txt2-d1{
+#header-subtitulo{
     color: var(--text-secondary);
     margin-left: 13em;
     margin-top: 6em;
@@ -47,7 +47,7 @@ header{
     font-size: 1.6em;
 }
 
-#cartbtt{
+.header-cartbtn{
     border: none;
     border-radius: 1;
     background-color: var(--text-tertiary);
@@ -60,6 +60,9 @@ header{
     cursor: pointer;
     opacity: 0.9;
     border-radius: 15px;
+    font-family: 'calibri';
+    font-style: italic;
+    text-decoration: none;
 }
 
 #cartbtt:hover{
@@ -428,25 +431,34 @@ footer{
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       text-align: center;
-       font-size: 0.8em;
        height: 113vh;
+       font-size: 0.9rem;
     }
 
+    .header-logoetexto{
+        margin-top: 21rem;
+    }
+    
     #t3-logo{
-        padding: 30rem;
+        margin-left: 3rem;
     }
 
-    .ninagomes-content{
-        padding: 10em;
+
+    #header-headline{
+        margin-left: 2rem;
+        text-align: center;
     }
 
-    #cartbtt{
-        margin-left: -1em;
-        width: 55%;
+    #header-subtitulo{
+        margin-left: 2rem;
+        text-align: center;
+    }
+
+    .header-cartbtn{
+        margin-left: 7.5rem;
+        padding-left:5re ;
+        width: 190px;
+        text-align: center;
     }
   
 
