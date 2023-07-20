@@ -437,7 +437,11 @@ footer{
     }
 
     #t3-logo{
-        padding: 5rem;
+        padding: 10rem;
+    }
+
+    .ninagomes-content{
+        padding: 10em;
     }
 
     #cartbtt{
