@@ -437,7 +437,7 @@ footer{
     }
 
     #t3-logo{
-        padding-right: 50rem;
+        padding: 50rem;
     }
 
     #cartbtt{
@@ -475,7 +475,7 @@ footer{
     /*Sessão 3 - Quem é Nina Gomes*/
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
-        height: 907vh;
+        height: 90vh;
     }
 
     #ninalogo{
