@@ -424,7 +424,7 @@ footer{
 @media (max-width: 430px){
     /*Sessão 1 - Topo*/
     body{
-        margin: 50rem;
+
     }
 
     header{
@@ -436,7 +436,7 @@ footer{
        text-align: center;
        font-size: 0.8em;
        height: 113vh;
-       padding-left: 2rem;
+       padding:1rem;
     }
 
     #cartbtt{
