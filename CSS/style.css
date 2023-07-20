@@ -12,11 +12,8 @@
 
 /*Sessão 1 - Topo*/
 
-#dobra1{
+header{
     background: url("../imagens/Página-1-CelularFundo.png");
-    background-position: center;
-    background-size: cover;
-    height: 85vh;
     display: flex;
     flex-direction: column;
 }
@@ -424,32 +421,18 @@ footer{
 
 /* = = = = = MOBILE = = = = = */
 
-@media (max-width: 450px){
+@media (max-width: 430px){
     /*Sessão 1 - Topo*/
-    body{
-        margin-right: -5em;
-    }
-
-    #dobra1{
+    header{
+       background-image: url(../imagens/Página-1-CelularFundo.png); 
        background-position: center;
        background-size: cover;
+       background-repeat: no-repeat;
        display: flex;
        flex-direction: column;
        text-align: center;
        font-size: 0.8em;
        height: 119vh;
-    }
-
-    #t3-logo{
-        width: 300px;
-        margin-top: 37em;
-        margin-left: 4em;
-    }
-
-    #textos-1{
-        margin-left: -17em;
-        max-width: 580px;
-        margin-bottom: -1em;
     }
 
     #cartbtt{
