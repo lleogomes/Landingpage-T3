@@ -436,7 +436,7 @@ footer{
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
-       padding-bottom: 170rem;
+       height: 170rem;
        font-size: 0.9rem;
     }
 
