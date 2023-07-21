@@ -431,6 +431,10 @@ footer{
 
 @media (max-width: 430px){
     /*Sessão 1 - Topo*/
+    body{
+        margin-bottom: -10rem;
+    }
+
     header{
        background-image: url(../imagens/Página-1-CelularFundo.png); 
        background-position: center;
