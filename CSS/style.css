@@ -469,9 +469,6 @@ footer{
     /*Sessão 2 - Triunfo*/
     #triunfo{
         background: url(../imagens/Página-2-CelularFundo.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         padding-bottom: 25vh;
     }
 
