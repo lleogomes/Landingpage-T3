@@ -469,9 +469,10 @@ footer{
     /*Sessão 2 - Triunfo*/
     #triunfo{
         background: url(../imagens/Página-2-CelularFundo.png);
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
         height: 113vh;
-        margin-left: -18rem;
     }
 
     #triunfoimg{
