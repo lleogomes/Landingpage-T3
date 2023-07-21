@@ -436,12 +436,12 @@ footer{
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
-       height: 170rem;
+       height: 113vh;
        font-size: 0.9rem;
     }
 
     .header-logoetexto{
-        margin-top: 18rem;
+        margin-top: 14rem;
     }
     
     #t3-logo{
