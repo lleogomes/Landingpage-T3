@@ -450,7 +450,7 @@ footer{
 
 
     #header-headline{
-        margin-left: 2rem;
+        margin-left: 1.8rem;
         text-align: center;
     }
 
@@ -470,7 +470,7 @@ footer{
     #triunfo{
         background: url(../imagens/Página-2-CelularFundo.png);
         background-size: cover;
-        height: 80vh;
+        height: 113vh;
         margin-left: -18rem;
     }
 
@@ -501,7 +501,7 @@ footer{
     #ninagomes{
         background: url(../imagens/fundo-pag3-celular-figma.png);
         background-size: cover;
-        
+        height: 113vh;
     }
 
     #ninalogo{
